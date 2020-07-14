@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Metronome</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="freq">%1$d bpm</string>
+    <string name="smallup">+%1$d</string>
+    <string name="bigup">+%1$d</string>
+    <string name="smalldown">-%1$d</string>
+    <string name="bigdown">-%1$d</string>
+    <string name="min">%1$d</string>
+    <string name="max">%1$d</string>
+</resources>
