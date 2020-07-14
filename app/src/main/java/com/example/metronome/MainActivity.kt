@@ -62,7 +62,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun updateAll(change: Int) {
-        val newBpm = metronome.bpm + change
+        val tempBpm = metronome.bpm + change
+        val newBpm = when { tempBpm < this.min -> { min }
+            tempBpm <= this.max -> { tempBpm }
+            else -> { max }
+        }
+
         findViewById<TextView>(R.id.freqText).text =
             getString(R.string.freq, newBpm)
 
