@@ -1,10 +1,9 @@
-package com.example.metronome
+package com.example.metronome.backend
 
-import android.app.Service
 import android.content.Context
-import android.media.AudioAttributes
 import android.media.AudioManager
 import android.media.SoundPool
+import com.example.metronome.R
 import kotlin.system.measureNanoTime
 
 class Sound(context: Context) {

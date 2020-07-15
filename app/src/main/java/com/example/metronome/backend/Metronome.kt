@@ -1,7 +1,6 @@
-package com.example.metronome
+package com.example.metronome.backend
 
 import android.content.Context
-import kotlinx.coroutines.currentCoroutineContext
 import java.util.*
 
 class Metronome(
